@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "lerna": "^4.0.0",
     "packemon": "^1.4.1"
   },
   "scripts": {
