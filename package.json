@@ -1,0 +1,12 @@
+{
+  "name": "packemon-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "packemon": "^1.4.1"
+  },
+  "scripts": {
+    "build": "packemon build"
+  }
+}
