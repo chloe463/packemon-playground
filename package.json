@@ -8,5 +8,14 @@
   },
   "scripts": {
     "build": "packemon build"
+  },
+  "packemon": {
+    "format": [
+      "esm",
+      "lib",
+      "umd"
+    ],
+    "namespace": "playground",
+    "platform": "browser"
   }
 }
