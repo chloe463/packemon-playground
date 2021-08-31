@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "es6",
+    "declaration": true,
+    "outDir": "./dts",
+    "rootDir": "./src",
+    "declarationDir": "./dts",
+    "strict": true,
+    "resolveJsonModule": false,
+    "emitDeclarationOnly": true
+  }
+}

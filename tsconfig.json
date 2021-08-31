@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "target": "es6",
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true
+  },
+  "references": [
+    {
+      "path": "packages/foo"
+    },
+    {
+      "path": "packages/bar"
+    }
+  ]
+}

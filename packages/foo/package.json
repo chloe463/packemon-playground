@@ -1,0 +1,21 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "main": "./esm/index.js",
+  "license": "MIT",
+  "packemon": {
+    "format": "esm",
+    "platform": "browser"
+  },
+  "type": "module",
+  "module": "./esm/index.js",
+  "files": [
+    "dts/**/*.d.ts",
+    "esm/**/*.{js,map}",
+    "src/**/*.{ts,tsx,json}"
+  ],
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  },
+  "types": "./dts/index.d.ts"
+}
